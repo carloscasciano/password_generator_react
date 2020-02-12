@@ -4,17 +4,17 @@
 #### Components Structure
 - Title
 - Password
-    -- Generated Password
+    - Generated Password
 - ButttonsMenu
-    -- Generate Button
-    -- Copy to Clipboard Button
+    - Generate Button
+    - Copy to Clipboard Button
 - Commands Menu
-    -- Charlength
-    -- Switches
-        --- Uppercase
-        --- Lowercase
-        --- Numbers
-        --- Symbols
+    - Charlength
+    - Switches
+        - Uppercase
+        - Lowercase
+        - Numbers
+        - Symbols
 
 #### ToDo List
 - [X] Create React App with git and Readme
