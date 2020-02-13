@@ -2,8 +2,8 @@
 #### Portfolio Carlos Casciano
 
 #### Components Structure
-- Title
-- Password
+- Title - OK
+- Password 
     - Generated Password
 - ButttonsMenu
     - Generate Button
@@ -18,18 +18,17 @@
 
 #### ToDo List
 - [X] Create React App with git and Readme
-- [ ] Write Logic
+- [X] Write Logic
     - [X] generate random with characteres
-    - [ ] check password strength
-- [ ] Write Components
+    - [X] check password strength
+- [X] Write Components
 - [ ] Connect logic and components
-- [ ] Design Components
+- [ ] Design Components with MatUI
 - [ ] Check media queries for desktop
 - [ ] Upload on heroku or netlify
 - [ ] Write detailed readme
 - [ ] Write next steps
 - [ ] Make public
-
 
 
 #### Remember to
