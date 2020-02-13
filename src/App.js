@@ -41,12 +41,16 @@ function App() {
   const handleGeneratePassword = () => {
     const rulesString = createArrayOfRulesFromSwitches(rulesSwitches)
     const charactersString = createMasterString(rulesString)
-    const newPassword = generatePassword(userCharacterLengthInput,charactersString)
-    const newPasswordStrength = checkPasswordStrength(newPassword)
-    setGeneratedPassword(newPassword)
-    setPasswordStrength(newPasswordStrength)
+    if (charactersString === "") {
+      setGeneratedPassword("activate at least one switch")
+    }
+    else {
+      const newPassword = generatePassword(userCharacterLengthInput,charactersString)
+      const newPasswordStrength = checkPasswordStrength(newPassword)
+      setGeneratedPassword(newPassword)
+      setPasswordStrength(newPasswordStrength)
+    }
   }
-
 
   // functions
 
