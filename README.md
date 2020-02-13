@@ -26,7 +26,9 @@
 - [ ] Check media queries for desktop
 - [ ] Upload on heroku or netlify
 - [ ] Write detailed readme
+- [ ] Write next steps
 - [ ] Make public
+
 
 
 #### Remember to
