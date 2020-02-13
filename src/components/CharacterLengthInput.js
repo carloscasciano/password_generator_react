@@ -1,9 +1,15 @@
 import React from 'react'
 
-const CharacterLengthInput = () => {
+import TextField from '@material-ui/core/TextField'
+
+const CharacterLengthInput = (props) => {
+    props = props.props
     return (
         <>
-            <input></input>
+            <TextField 
+                value = {props.userCharacterLengthInput}
+                onChange = {props.handleCharacterLengthInput}
+            />
         </>
     )
 }

@@ -3,11 +3,15 @@ import React from 'react'
 import CharacterLengthInput from './CharacterLengthInput'
 import SwitchesMenu from './SwitchesMenu'
 
-const CommandsMenu = () => {
+const CommandsMenu = (props) => {
     return (
         <>
-            <CharacterLengthInput />
-            <SwitchesMenu />
+            <CharacterLengthInput 
+                props = {props}
+            />
+            <SwitchesMenu 
+                props = {props}
+            />
         </>
     )
 }
