@@ -31,7 +31,8 @@
     - [X] calculate strenght
     - [X] handle empty passwords
     - [X] handle max chars
-- [ ] Design Components with MatUI
+- [X] Design Components with MatUI
+- [ ] Correct positions
 - [ ] Check media queries for desktop
 - [ ] Upload on heroku or netlify
 - [ ] Write detailed readme
