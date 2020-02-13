@@ -1,4 +1,6 @@
 import React from 'react'
+import Button from '@material-ui/core/Button'
+import FileCopyIcon from '@material-ui/icons/FileCopy'
 import {CopyToClipboard} from 'react-copy-to-clipboard'
 
 const CopyToClipboardButton = (props) => {
@@ -7,7 +9,13 @@ const CopyToClipboardButton = (props) => {
         <>
             <CopyToClipboard 
                 text={props.generatedPassword}>
-                <button>Copy to clipboard with button</button>
+                <Button
+                    variant="contained"
+                    color="default"
+                    startIcon={<FileCopyIcon />}
+                 >
+                    COPY
+                </Button>
             </CopyToClipboard>
         </>
     )

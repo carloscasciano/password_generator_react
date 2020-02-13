@@ -1,18 +1,15 @@
 import React from 'react'
-
+import Grid from '@material-ui/core/Grid'
 import GeneratePasswordButton from './GeneratePasswordButton'
 import CopyToClipboardButton from './CopyToClipboardButton'
 
 const ButtonsMenu = (props) => {
     return (
         <>
-            <GeneratePasswordButton 
-            props = {props}
-            />
-            <CopyToClipboardButton 
-            props = {props}
-            />
-            
+            <Grid>
+                <GeneratePasswordButton props = {props} />
+                <CopyToClipboardButton props = {props} />
+            </Grid>    
         </>
     )
 }

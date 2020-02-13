@@ -1,9 +1,16 @@
 import React from 'react'
+import Button from '@material-ui/core/Button'
 
 const GeneratePasswordButton = (props) => {
     return (
         <>
-            <button onClick={props.props.handleGeneratePassword}>generate</button>
+            <Button 
+                variant="contained" 
+                color="primary"
+                onClick={props.props.handleGeneratePassword}
+            >
+                GENERATE
+            </Button>
         </>
     )
 }
