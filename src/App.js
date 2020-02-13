@@ -66,8 +66,6 @@ function App() {
     return newArr
   }
 
-
-
   // APP:
   return (
     <div className=" App">

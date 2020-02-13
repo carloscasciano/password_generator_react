@@ -24,6 +24,13 @@
     - [X] check password strength
 - [X] Write Components
 - [X] Connect logic and components
+    - [X] capture length from user
+    - [X] create switches array
+    - [X] calculate password
+    - [X] copy to clipboard
+    - [X] calculate strenght
+    - [X] handle empty passwords
+    - [X] handle max chars
 - [ ] Design Components with MatUI
 - [ ] Check media queries for desktop
 - [ ] Upload on heroku or netlify
