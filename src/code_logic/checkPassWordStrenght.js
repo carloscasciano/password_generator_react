@@ -1,6 +1,6 @@
 const zxcvbn = require('zxcvbn')
 
-const checkPasswordStrength = (password) => {
+export const checkPasswordStrength = (password) => {
     const score = zxcvbn(password).score
     switch (score) {
         case 0 : return 'risky'
@@ -11,5 +11,3 @@ const checkPasswordStrength = (password) => {
         default : return 'unknow'
     }
 }
-
-export default {checkPasswordStrength}

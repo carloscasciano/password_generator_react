@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 
 import {generatePassword} from './code_logic/generatePassword'
 import {createMasterString} from './code_logic/generatePassword'
+import {checkPasswordStrength} from './code_logic/checkPassWordStrenght'
 
 
 /*  */
@@ -24,6 +25,8 @@ function App() {
     symbols: false,
     numbers: true
     })
+  const [passwordStrength, setPasswordStrength] = useState("weak")
+
 
   // handlers
 
@@ -38,7 +41,10 @@ function App() {
   const handleGeneratePassword = () => {
     const rulesString = createArrayOfRulesFromSwitches(rulesSwitches)
     const charactersString = createMasterString(rulesString)
-    setGeneratedPassword(generatePassword(userCharacterLengthInput,charactersString))
+    const newPassword = generatePassword(userCharacterLengthInput,charactersString)
+    const newPasswordStrength = checkPasswordStrength(newPassword)
+    setGeneratedPassword(newPassword)
+    setPasswordStrength(newPasswordStrength)
   }
 
 
@@ -61,6 +67,7 @@ function App() {
       <Title />
       <GeneratedPasswordMenu 
         generatedPassword = {generatedPassword}
+        passwordStrength = {passwordStrength}
       />
       <ButtonsMenu 
         handleGeneratePassword = {handleGeneratePassword}
