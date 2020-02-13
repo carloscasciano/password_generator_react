@@ -15,6 +15,7 @@
         - Lowercase
         - Numbers
         - Symbols
+- Footer
 
 #### ToDo List
 - [X] Create React App with git and Readme
