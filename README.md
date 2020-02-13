@@ -19,10 +19,11 @@
 #### ToDo List
 - [X] Create React App with git and Readme
 - [ ] Write Logic
-    - generate random with characteres
-    - check password strength
+    - [X] generate random with characteres
+    - [ ] check password strength
 - [ ] Write Components
 - [ ] Connect logic and components
+- [ ] Design Components
 - [ ] Check media queries for desktop
 - [ ] Upload on heroku or netlify
 - [ ] Write detailed readme
