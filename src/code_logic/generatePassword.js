@@ -4,7 +4,7 @@ const symbolsString = `!"#$%&'()*+,-./:;<=>?@[]^_}{~`
 const numbersString = `0123456789`
 
 
-const createMasterString = (arrayOfRules) => {
+export const createMasterString = (arrayOfRules) => {
     let masterString = ''
     if (arrayOfRules.includes(`lowerCase`))
         masterString = masterString.concat(lowerCaseString)
@@ -16,6 +16,7 @@ const createMasterString = (arrayOfRules) => {
         masterString = masterString.concat(numbersString)
 
     return masterString
+    
 }
 
 const chooseRandomCharacterFromString = (targetString) => {
@@ -25,7 +26,7 @@ const chooseRandomCharacterFromString = (targetString) => {
     return resultCharacter
 }
 
-const generatePassword = (passwordLength, charactersToBeUsedString) => {
+export const generatePassword = (passwordLength, charactersToBeUsedString) => {
     let resultPassword = ""
     for (let i = 0; i < passwordLength; i++) {
         resultPassword = resultPassword.concat(chooseRandomCharacterFromString(charactersToBeUsedString))
@@ -33,4 +34,4 @@ const generatePassword = (passwordLength, charactersToBeUsedString) => {
     return resultPassword
 }
 
-export default {createMasterString, generatePassword}
+

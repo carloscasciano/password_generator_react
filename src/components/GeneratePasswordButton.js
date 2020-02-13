@@ -1,9 +1,11 @@
 import React from 'react'
 
-const GeneratePasswordButton = () => {
+const GeneratePasswordButton = (props) => {
+    console.log(props.props)
+
     return (
         <>
-            <button>generate</button>
+            <button onClick={props.props.handleGeneratePassword}>generate</button>
         </>
     )
 }

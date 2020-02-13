@@ -3,10 +3,12 @@ import React from 'react'
 import GeneratePasswordButton from './GeneratePasswordButton'
 import CopyToClipboardButton from './CopyToClipboardButton'
 
-const ButtonsMenu = () => {
+const ButtonsMenu = (props) => {
     return (
         <>
-            <GeneratePasswordButton />
+            <GeneratePasswordButton 
+            props = {props}
+            />
             <CopyToClipboardButton />
             
         </>
