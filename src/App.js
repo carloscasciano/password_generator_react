@@ -44,6 +44,9 @@ function App() {
     if (charactersString === "") {
       setGeneratedPassword("activate at least one switch")
     }
+    else if (userCharacterLengthInput > 256) {
+      setGeneratedPassword("must be < 256 characters")
+    }
     else {
       const newPassword = generatePassword(userCharacterLengthInput,charactersString)
       const newPasswordStrength = checkPasswordStrength(newPassword)

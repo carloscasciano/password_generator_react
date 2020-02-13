@@ -23,7 +23,7 @@
     - [X] generate random with characteres
     - [X] check password strength
 - [X] Write Components
-- [ ] Connect logic and components
+- [X] Connect logic and components
 - [ ] Design Components with MatUI
 - [ ] Check media queries for desktop
 - [ ] Upload on heroku or netlify
