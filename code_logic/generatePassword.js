@@ -33,13 +33,4 @@ const generatePassword = (passwordLength, charactersToBeUsedString) => {
     return resultPassword
 }
 
-
-// TESTS:
-
-const dummyArray = [`lowerCase`, `upperCase`, `symbols`, `numbers`]
-
-
-//console.log(chooseRandomCharacterFromString("xyz"))
-
-
-console.log(generatePassword(10,createMasterString(dummyArray)))
+export default {createMasterString, generatePassword}
