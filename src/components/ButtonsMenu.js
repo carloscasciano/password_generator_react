@@ -9,7 +9,9 @@ const ButtonsMenu = (props) => {
             <GeneratePasswordButton 
             props = {props}
             />
-            <CopyToClipboardButton />
+            <CopyToClipboardButton 
+            props = {props}
+            />
             
         </>
     )

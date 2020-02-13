@@ -21,7 +21,7 @@ function App() {
   const [rulesSwitches, setRulesSwitches] = useState({
     lowerCase: true,
     upperCase: true,
-    symbols: true,
+    symbols: false,
     numbers: true
     })
 
@@ -64,6 +64,7 @@ function App() {
       />
       <ButtonsMenu 
         handleGeneratePassword = {handleGeneratePassword}
+        generatedPassword = {generatedPassword}
       />
       <CommandsMenu 
         userCharacterLengthInput = {userCharacterLengthInput}

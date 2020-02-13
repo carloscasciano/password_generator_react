@@ -1,9 +1,14 @@
 import React from 'react'
+import {CopyToClipboard} from 'react-copy-to-clipboard'
 
-const CopyToClipboardButton = () => {
+const CopyToClipboardButton = (props) => {
+    props=props.props
     return (
         <>
-            <button>copy</button>
+            <CopyToClipboard 
+                text={props.generatedPassword}>
+                <button>Copy to clipboard with button</button>
+            </CopyToClipboard>
         </>
     )
 }
