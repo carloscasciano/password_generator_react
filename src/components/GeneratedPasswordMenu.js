@@ -6,7 +6,12 @@ import Grid from '@material-ui/core/Grid'
 const GeneratedPasswordMenu = (props) => {
     return (
         <>
-            <Grid>
+            <Grid
+                container
+                direction="row"
+                justify="center"
+                alignItems="center"
+            >
                 <Textfield 
                     variant = "outlined"
                     value = {props.generatedPassword} 

@@ -17,15 +17,15 @@ import {checkPasswordStrength} from './code_logic/checkPassWordStrenght'
 function App() {
   //states
 
-  const [generatedPassword, setGeneratedPassword] = useState("passwordGENERATOR")
-  const [userCharacterLengthInput, setUserCharacterLengthInput] = useState(8)
+  const [generatedPassword, setGeneratedPassword] = useState("")
+  const [userCharacterLengthInput, setUserCharacterLengthInput] = useState(16)
   const [rulesSwitches, setRulesSwitches] = useState({
-    lowerCase: true,
+    lowerCase: false,
     upperCase: true,
     symbols: false,
     numbers: true
     })
-  const [passwordStrength, setPasswordStrength] = useState("weak")
+  const [passwordStrength, setPasswordStrength] = useState("strength")
 
 
   // handlers
@@ -84,7 +84,7 @@ function App() {
         rulesSwitches = {rulesSwitches}
         handleSwitchesState = {handleSwitchesState}
       />
-      <Footer />
+      <Footer/>
     </div>
   );
 }

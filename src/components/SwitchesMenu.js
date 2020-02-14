@@ -4,12 +4,18 @@ import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Switch from '@material-ui/core/Switch'
 import { FormControl } from '@material-ui/core'
 
+const switchesMenuStyle = {
+    margin: "1em"
+}
+
 const SwitchesMenu = (props) => {
     props = props.props
     
     return (
         <>
-        <FormControl>
+        <FormControl
+            style = {switchesMenuStyle}
+        >
             <FormGroup >
                 <FormControlLabel
                     control = {
@@ -19,7 +25,7 @@ const SwitchesMenu = (props) => {
                             color="primary"
                         />
                     }
-                    label = "ABC..."
+                    label = "ABCD..."
                 />
             </FormGroup>
             <FormGroup >
@@ -31,7 +37,7 @@ const SwitchesMenu = (props) => {
                             color="primary"
                         />
                     }
-                    label = "abc..."
+                    label = "abcd..."
                 />
             </FormGroup>
             <FormGroup >
@@ -43,7 +49,7 @@ const SwitchesMenu = (props) => {
                             color="primary"
                         />
                     }
-                    label = "123..."
+                    label = "1234..."
                 />
             </FormGroup>
             <FormGroup >
@@ -55,7 +61,7 @@ const SwitchesMenu = (props) => {
                             color="primary"
                         />
                     }
-                    label = "!@#..."
+                    label = "!@#$..."
                 />
             </FormGroup>
         </FormControl>

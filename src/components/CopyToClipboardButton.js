@@ -3,6 +3,10 @@ import Button from '@material-ui/core/Button'
 import FileCopyIcon from '@material-ui/icons/FileCopy'
 import {CopyToClipboard} from 'react-copy-to-clipboard'
 
+const buttonStyle = {
+    margin: '1em'
+}
+
 const CopyToClipboardButton = (props) => {
     props=props.props
     return (
@@ -13,6 +17,8 @@ const CopyToClipboardButton = (props) => {
                     variant="contained"
                     color="default"
                     startIcon={<FileCopyIcon />}
+                    size="small"
+                    style={buttonStyle}
                  >
                     COPY
                 </Button>

@@ -1,6 +1,10 @@
 import React from 'react'
 import Button from '@material-ui/core/Button'
 
+const buttonStyle = {
+    margin: '1em'
+}
+
 const GeneratePasswordButton = (props) => {
     return (
         <>
@@ -8,6 +12,8 @@ const GeneratePasswordButton = (props) => {
                 variant="contained" 
                 color="primary"
                 onClick={props.props.handleGeneratePassword}
+                style={buttonStyle}
+                size="large"
             >
                 GENERATE
             </Button>

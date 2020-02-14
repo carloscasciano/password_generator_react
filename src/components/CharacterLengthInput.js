@@ -10,7 +10,6 @@ const CharacterLengthInput = (props) => {
                 value = {props.userCharacterLengthInput}
                 onChange = {props.handleCharacterLengthInput}
                 label="length"
-                id="filled-size-small"
                 variant="filled"
                 size="small"
             />

@@ -6,7 +6,7 @@ import CopyToClipboardButton from './CopyToClipboardButton'
 const ButtonsMenu = (props) => {
     return (
         <>
-            <Grid>
+            <Grid >
                 <GeneratePasswordButton props = {props} />
                 <CopyToClipboardButton props = {props} />
             </Grid>    
