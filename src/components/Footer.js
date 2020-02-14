@@ -1,5 +1,6 @@
  import React from 'react'
- import {GitHubIcon,LinkedInIcon} from '@material-ui/icons'
+ import GitHubIcon from '@material-ui/icons/GitHub'
+ import LinkedInIcon from '@material-ui/icons/LinkedIn'
  import Grid from '@material-ui/core/Grid'
  import Link from '@material-ui/core/Link'
 
