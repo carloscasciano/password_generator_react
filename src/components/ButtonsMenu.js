@@ -3,12 +3,20 @@ import Grid from '@material-ui/core/Grid'
 import GeneratePasswordButton from './GeneratePasswordButton'
 import CopyToClipboardButton from './CopyToClipboardButton'
 
+
 const ButtonsMenu = (props) => {
     return (
         <>
-            <Grid >
-                <GeneratePasswordButton props = {props} />
-                <CopyToClipboardButton props = {props} />
+            <Grid
+                container
+                direction="row"
+                justify="center"
+                alignItems="center"
+                style={{marginTop:"6px"}}
+                
+            >
+                <GeneratePasswordButton item props = {props} />
+                <CopyToClipboardButton item props = {props} />
             </Grid>    
         </>
     )

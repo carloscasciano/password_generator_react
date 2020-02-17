@@ -4,7 +4,7 @@ import FileCopyIcon from '@material-ui/icons/FileCopy'
 import {CopyToClipboard} from 'react-copy-to-clipboard'
 
 const buttonStyle = {
-    margin: '1em'
+    padding: '1em'
 }
 
 const CopyToClipboardButton = (props) => {

@@ -4,12 +4,18 @@
  import Grid from '@material-ui/core/Grid'
  import Link from '@material-ui/core/Link'
 
+ const footerStyle = {
+    flexShrink: "0",
+    textAlign: "center",
+    marginTop: "calc(5% + 60px)",
+    bottom: "0"
+ }
 
  const iconStyle = {
      padding:"0.3em"
  }
 
- const Footer = () => {
+ const FooterInfo = () => {
      return (
          <>
             
@@ -18,6 +24,7 @@
                 direction="row"
                 justify="center"
                 alignItems="center"
+                style={footerStyle}
             >
                 <p>coded by carlos casciano</p>
                 <Link href="https://github.com/carloscasciano/" style={iconStyle}>
@@ -27,9 +34,8 @@
                     <LinkedInIcon />
                 </Link>         
             </Grid>
-            
          </>
      )
  }
 
- export default Footer
+ export default FooterInfo

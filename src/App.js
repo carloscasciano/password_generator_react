@@ -5,7 +5,7 @@ import Title from './components/Title'
 import GeneratedPasswordMenu from './components/GeneratedPasswordMenu'
 import ButtonsMenu from './components/ButtonsMenu'
 import CommandsMenu from './components/CommandsMenu'
-import Footer from './components/Footer'
+import FooterInfo from './components/FooterInfo'
 
 import {generatePassword} from './code_logic/generatePassword'
 import {createMasterString} from './code_logic/generatePassword'
@@ -84,7 +84,7 @@ function App() {
         rulesSwitches = {rulesSwitches}
         handleSwitchesState = {handleSwitchesState}
       />
-      <Footer/>
+      <FooterInfo />
     </div>
   );
 }
