@@ -1,4 +1,4 @@
-## Password Generator
+## Password Generator on React
 #### Portfolio Carlos Casciano - 17/02/2020
 
 ### General
