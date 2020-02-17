@@ -54,10 +54,10 @@ This project was motivated on showing the full process of creating a single page
 
 #### Mockups
 
-- Pencil Mockup
+Pencil Mockup:  
 ![alt text](https://i.imgur.com/XWqNURUm.jpg "Drawing Mockup")
-
-- Figma Mockup
+  
+Figma Mockup:  
 ![alt text](https://i.imgur.com/hnb5zlDm.png "Drawing Mockup")
 
 
