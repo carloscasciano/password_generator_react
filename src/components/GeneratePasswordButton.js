@@ -2,9 +2,9 @@ import React from 'react'
 import Button from '@material-ui/core/Button'
 
 const buttonStyle = {
-    width:'10em',
+    width:'15em',
     height: '5em',
-    margin: '1em'
+    marginRight: '1em'
 }
 
 const GeneratePasswordButton = (props) => {

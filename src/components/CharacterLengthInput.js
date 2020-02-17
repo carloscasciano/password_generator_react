@@ -2,7 +2,8 @@ import React from 'react'
 import TextField from '@material-ui/core/TextField'
 
 const lengthInputStyle = {
-    width:"6em"
+    width:"6em",
+    margin: "15px"
 }
 
 const CharacterLengthInput = (props) => {
@@ -13,7 +14,7 @@ const CharacterLengthInput = (props) => {
                 value = {props.userCharacterLengthInput}
                 onChange = {props.handleCharacterLengthInput}
                 label="length"
-                size="small"
+                size="medium"
                 type="number"
                 style={lengthInputStyle}
             />

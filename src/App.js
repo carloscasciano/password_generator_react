@@ -17,14 +17,14 @@ function App() {
   */
 
   const [generatedPassword, setGeneratedPassword] = useState("****************")
-  const [userCharacterLengthInput, setUserCharacterLengthInput] = useState("")
+  const [userCharacterLengthInput, setUserCharacterLengthInput] = useState(16)
   const [rulesSwitches, setRulesSwitches] = useState({
     lowerCase: false,
     upperCase: true,
     symbols: false,
     numbers: true
     })
-  const [passwordStrength, setPasswordStrength] = useState("")
+  const [passwordStrength, setPasswordStrength] = useState("password strength")
 
   /* 
   * Handlers

@@ -5,7 +5,7 @@ import Switch from '@material-ui/core/Switch'
 import { FormControl } from '@material-ui/core'
 
 const switchesMenuStyle = {
-    margin: "1em"
+    margin: "0em"
 }
 
 const SwitchesMenu = (props) => {
