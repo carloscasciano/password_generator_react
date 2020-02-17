@@ -17,14 +17,14 @@ function App() {
   */
 
   const [generatedPassword, setGeneratedPassword] = useState("****************")
-  const [userCharacterLengthInput, setUserCharacterLengthInput] = useState(16)
+  const [userCharacterLengthInput, setUserCharacterLengthInput] = useState("")
   const [rulesSwitches, setRulesSwitches] = useState({
     lowerCase: false,
     upperCase: true,
     symbols: false,
     numbers: true
     })
-  const [passwordStrength, setPasswordStrength] = useState("strength")
+  const [passwordStrength, setPasswordStrength] = useState("")
 
   /* 
   * Handlers
@@ -43,6 +43,9 @@ function App() {
     const charactersString = createMasterString(rulesString)
     if (charactersString === "") {
       setGeneratedPassword("turn switches on")
+    }
+    else if (userCharacterLengthInput === "") {
+      setGeneratedPassword("insert length")
     }
     else if (userCharacterLengthInput > 256) {
       setGeneratedPassword("maximum 256 characters")
