@@ -1,21 +1,20 @@
 import React, {useState} from 'react';
 import './App.css';
-
 import Title from './components/Title'
 import GeneratedPasswordMenu from './components/GeneratedPasswordMenu'
 import ButtonsMenu from './components/ButtonsMenu'
 import CommandsMenu from './components/CommandsMenu'
 import FooterInfo from './components/FooterInfo'
-
 import {generatePassword} from './code_logic/generatePassword'
 import {createMasterString} from './code_logic/generatePassword'
 import {checkPasswordStrength} from './code_logic/checkPassWordStrenght'
 
 
-/*  */
-
 function App() {
-  //states
+  
+  /* 
+  * States
+  */
 
   const [generatedPassword, setGeneratedPassword] = useState("")
   const [userCharacterLengthInput, setUserCharacterLengthInput] = useState(16)
@@ -27,8 +26,9 @@ function App() {
     })
   const [passwordStrength, setPasswordStrength] = useState("strength")
 
-
-  // handlers
+  /* 
+  * Handlers
+  */
 
   const handleCharacterLengthInput = (event) => {
     setUserCharacterLengthInput(event.target.value)
@@ -55,7 +55,9 @@ function App() {
     }
   }
 
-  // functions
+  /* 
+  * Side Functions
+  */
 
   const createArrayOfRulesFromSwitches = (rulesObject) => {
     let newArr = []
@@ -66,7 +68,10 @@ function App() {
     return newArr
   }
 
-  // APP:
+  /* 
+  * App Itself
+  */
+
   return (
     <div className=" App">
       <Title />
@@ -86,7 +91,8 @@ function App() {
       />
       <FooterInfo />
     </div>
-  );
+  )
 }
+
 
 export default App;

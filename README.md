@@ -33,10 +33,11 @@
     - [X] handle max chars
 - [X] Design Components with MatUI
 - [X] Correct positions
-- [ ] Update numbers only
+- [X] Update numbers only
+- [X] Color text for 
 - [X] Check media queries for desktop
+- [X] Write detailed readme
 - [ ] Upload on heroku or netlify
-- [ ] Write detailed readme
 - [ ] Write next steps
 - [ ] Make public
 
