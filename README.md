@@ -21,9 +21,9 @@ This project was motivated on showing the full process of creating a single page
 
 ### Tasks
 
-[X] Write user cases
-[X] Pencil Mockup
-[X] Figma Mockup
+[X] Write user cases  
+[X] Pencil Mockup  
+[X] Figma Mockup  
 [X] Create git repository
 [X] Create react app and delete unused files
 [X] Code basic components
