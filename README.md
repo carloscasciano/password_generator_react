@@ -54,7 +54,7 @@ This project was motivated on showing the full process of creating a single page
 
 #### Mockups
 
-![alt text]([Imgur](https://i.imgur.com/XWqNURU.jpg) "Drawing Mockup")
+![alt text](https://i.imgur.com/XWqNURU.jpg "Drawing Mockup")
 
 #### Components Structure
 |- Title  
