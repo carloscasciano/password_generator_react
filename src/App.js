@@ -47,8 +47,8 @@ function App() {
     else if (userCharacterLengthInput === "") {
       setGeneratedPassword("insert length below")
     }
-    else if (userCharacterLengthInput > 256) {
-      setGeneratedPassword("maximum 256 characters")
+    else if (userCharacterLengthInput > 128) {
+      setGeneratedPassword("maximum 128 characters")
     }
     else if (userCharacterLengthInput < 2) {
       setGeneratedPassword("minimum 2 characters")
