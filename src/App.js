@@ -16,7 +16,7 @@ function App() {
   * States
   */
 
-  const [generatedPassword, setGeneratedPassword] = useState("")
+  const [generatedPassword, setGeneratedPassword] = useState("****************")
   const [userCharacterLengthInput, setUserCharacterLengthInput] = useState(16)
   const [rulesSwitches, setRulesSwitches] = useState({
     lowerCase: false,

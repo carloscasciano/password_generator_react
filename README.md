@@ -1,7 +1,5 @@
 ## Password Generator
-#### Portfolio Carlos Casciano 
-##### 17/02/2020
-
+#### Portfolio Carlos Casciano - 17/02/2020
 
 ### General
 Access application:
@@ -9,8 +7,47 @@ Code details within git repository
 
 ### Motivation
 
-This project was motivated on showing the full process of creating a single page application with React, from drawing a mock-up to deploying the app online.
+This project was motivated on showing the full process of creating a single page application with React, from drawing a mock-up, developing logic, styling with Material UI and deploying the app online.
 
+
+### Main Project Steps
+- Brainstorm Idea
+- Draw Components Structure
+- Code Logic
+- Code Structure
+- Connect Structure with Logic
+- Styles with Material UI
+- Deploy
+
+### Tasks
+
+[X] Write user cases
+[X] Pencil Mockup
+[X] Figma Mockup
+[X] Create git repository
+[X] Create react app and delete unused files
+[X] Code basic components
+[X] Code password generation logic
+[X] Code password strength logic
+[X] Code length capture
+[X] Code switches logic
+[X] Connect switches with generation and strength
+[X] Code copy to clipboard feature
+[X] Handle empty switches
+[X] Handle text on length textfield
+[X] Code colors based on strength
+[X] Code maximum permitted chars
+[X] Set margins and paddings
+[X] Set favicon
+[X] Manual testing
+[X] Code cleaning
+[X] Deploy
+[X] Test deployed
+[X] Update readme
+[X] Write next steps
+[X] Publish
+
+## Details
 
 ### User Cases
 
@@ -21,38 +58,7 @@ This project was motivated on showing the full process of creating a single page
 - User can easily copy password to clipboard to paste elsewhere
 - User can easily checks if his password is strong enough
 
-
-### Project Steps
-
-- Brainstorm Idea
-- Write user cases
-- Pencil Mockup
-- Figma Mockup
-- Draw Components Structure
-- Create git repository
-- Create react app and delete unused files
-- Code basic components
-- Code password generation logic
-- Code password strength logic
-- Code length capture
-- Code switches logic
-- Connect switches with generation and strength
-- Code copy to clipboard feature
-- Handle empty switches
-- Handle text on length textfield
-- Code colors based on strength
-- Code maximum permitted chars
-- Set margins and paddings
-- Set favicon
-- Manual testing
-- Code cleaning
-- Deploy
-- Test deployed
-- Update readme
-- Write next steps
-- Publish
-
-#### Mockups
+### Mockups
 
 Pencil Mockup:  
 ![alt text](https://i.imgur.com/XWqNURUm.jpg "Drawing Mockup")
@@ -61,8 +67,7 @@ Figma Mockup:
 ![alt text](https://i.imgur.com/hnb5zlDm.png "Drawing Mockup")
 
 
-
-#### Components Structure
+#### React Components Structure
 |- Title  
 |- Generated Password Menu  
 |- Buttons Menu  
@@ -73,7 +78,29 @@ Figma Mockup:
 |--- Switches  
 |- Footer  
 
+#### Password Strength
+
+- Used zxcvb library: https://github.com/dropbox/zxcvbn
+
+#### Copy to Clipboard
+
+- Used react-copy-to-clipboard libray: https://www.npmjs.com/package/react-copy-to-clipboard
+
+#### Styling
+
+- Basic Material UI usage, mostly with default components: https://material-ui.com/components/
+- Some simple API changes and style override
+- Opted not to be completely faithful to mock-up, but only for taste purposes
 
 
-#### Next steps:
--  Add better animation to show that password is copied
+#### Next steps (if desired):
+
+- Add better animation to show that password is truly copied
+- Add password strength color to Textfield component border
+- Add strength bar
+- Use media queries to make desktop version more aesthetically
+
+#### Other Info
+
+- Any tips, hints, critics, please contact me via linkedin or email: carlos.casciano@gmail.com
+
