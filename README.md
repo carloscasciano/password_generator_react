@@ -1,16 +1,17 @@
-## Password Generator on React
-#### Portfolio Carlos Casciano - 17/02/2020
-
+## Password Generator with React
+#### Portfolio Carlos Casciano - last update: 17/02/2020
+====
 ### General
 Application: https://ccasci-passwordgeneratorreact.netlify.com/
 Code details within git repository
 
 ### Motivation
 
-This project was motivated on showing the full process of creating a single page application with React, from drawing a mock-up, developing logic, styling with Material UI and deploying the app online.
+This project was motivated on showing the full process of creating a single page application with React - from drawing mock-up, developing logic, styling with Material UI and deploying the app online.
 
-
+====
 ### Main Project Steps
+
 - Brainstorm Idea
 - Draw Components Structure
 - Code Logic
@@ -18,7 +19,7 @@ This project was motivated on showing the full process of creating a single page
 - Connect Structure with Logic
 - Styles with Material UI
 - Deploy
-
+====
 ### Tasks
 
 - [X] Write user cases  
@@ -47,6 +48,7 @@ This project was motivated on showing the full process of creating a single page
 - [X] Write next steps
 - [X] Publish
 
+====
 ## Details
 
 ### User Cases
@@ -92,8 +94,8 @@ Figma Mockup:
 - Some simple API changes and style override
 - Opted not to be completely faithful to mock-up, but only for taste purposes
 
-
-#### Next steps (if desired):
+====
+#### Next steps:
 
 - Add better animation to show that password is truly copied
 - Add password strength color to Textfield component border
