@@ -42,10 +42,13 @@ function App() {
     const rulesString = createArrayOfRulesFromSwitches(rulesSwitches)
     const charactersString = createMasterString(rulesString)
     if (charactersString === "") {
-      setGeneratedPassword("activate at least one switch")
+      setGeneratedPassword("turn switches on")
     }
     else if (userCharacterLengthInput > 256) {
       setGeneratedPassword("must be < 256 characters")
+    }
+    else if (userCharacterLengthInput < 2) {
+      setGeneratedPassword("minimum 2 characters")
     }
     else {
       const newPassword = generatePassword(userCharacterLengthInput,charactersString)

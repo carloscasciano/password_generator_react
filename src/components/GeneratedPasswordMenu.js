@@ -9,6 +9,9 @@ const GeneratedPasswordMenu = (props) => {
     const currentColor = getColor(props.passwordStrength)
     const useStyles = makeStyles({
         root: {
+            color: currentColor
+          },
+        inputColor: {
           color: currentColor
         }
       })
@@ -26,7 +29,7 @@ const GeneratedPasswordMenu = (props) => {
                     variant = "outlined"
                     value = {props.generatedPassword} 
                     helperText = {props.passwordStrength}
-                    InputProps={{className: classes.root}}
+                    InputProps={{className: classes.inputColor}}
                     readOnly
                 />
             </Grid>
