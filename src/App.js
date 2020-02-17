@@ -69,7 +69,7 @@ function App() {
   }
 
   /* 
-  * App Itself
+  * App itself
   */
 
   return (

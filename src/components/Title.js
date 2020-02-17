@@ -1,9 +1,16 @@
 import React from 'react'
+import Typography from '@material-ui/core/Typography'
+
+const titleStyle ={
+    margin:"2%"
+}
 
 const Title = () => {
     return (
         <>
-            <h2>password generator</h2>
+            <Typography variant="h5" style={titleStyle}>
+                Password Generator
+            </Typography>
         </>
     )
 }
