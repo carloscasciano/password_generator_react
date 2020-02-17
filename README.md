@@ -42,6 +42,7 @@ This project was motivated on showing the full process of creating a single page
 - Code colors based on strength
 - Code maximum permitted chars
 - Set margins and paddings
+- Set favicon
 - Manual testing
 - Code cleaning
 - Deploy
@@ -53,9 +54,9 @@ This project was motivated on showing the full process of creating a single page
 
 
 #### Components Structure
-- |- Title
-- |- Password 
-- |----- Generated Password
+|- Title  
+|- Password  
+|----- Generated Password  
 - ButttonsMenu
     - Generate Button
     - Copy to Clipboard Button
