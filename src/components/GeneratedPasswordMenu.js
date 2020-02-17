@@ -2,17 +2,7 @@ import React from 'react'
 import Textfield from '@material-ui/core/TextField'
 import Grid from '@material-ui/core/Grid'
 import { makeStyles } from '@material-ui/core/styles'
-
-const getColor = (passwordStrength) => {
-    switch (passwordStrength) {
-        case 'risky' : return '#FF2E1D'
-        case 'weak' : return '#FF720F' 
-        case 'medium' : return '#E8A72C'
-        case 'strong' : return '#5BA324'
-        case 'very strong' : return '#144A0A'
-        default : return 'gray'
-    }
-}
+import { getColor } from '../code_logic/getColor'
 
 const GeneratedPasswordMenu = (props) => {
 
