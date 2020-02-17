@@ -4,7 +4,9 @@ import FileCopyIcon from '@material-ui/icons/FileCopy'
 import {CopyToClipboard} from 'react-copy-to-clipboard'
 
 const buttonStyle = {
-    padding: '1em'
+    width:'10em',
+    height: '6em',
+    margin: '1em'
 }
 
 const CopyToClipboardButton = (props) => {
@@ -14,7 +16,6 @@ const CopyToClipboardButton = (props) => {
             <CopyToClipboard 
                 text={props.generatedPassword}>
                 <Button
-                    variant="contained"
                     color="default"
                     startIcon={<FileCopyIcon />}
                     size="small"
