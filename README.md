@@ -3,13 +3,14 @@
 ##### 17/02/2020
 
 
-###
+### General
 Access application:
-Code within repository
+Code details within git repository
 
 ### Motivation
 
 This project was motivated on showing the full process of creating a single page application with React, from drawing a mock-up to deploying the app online.
+
 
 ### User Cases
 
@@ -51,6 +52,9 @@ This project was motivated on showing the full process of creating a single page
 - Write next steps
 - Publish
 
+#### Mockups
+
+![alt text](https://imgur.com/XWqNURU "Drawing Mockup")
 
 #### Components Structure
 |- Title  
