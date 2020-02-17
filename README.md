@@ -52,19 +52,14 @@ This project was motivated on showing the full process of creating a single page
 - Publish
 
 
-
 #### Components Structure
 |- Title  
-|- Password  
-|----- Generated Password  
-- ButttonsMenu
-    - Generate Button
-    - Copy to Clipboard Button
-- Commands Menu
-    - Charlength
-    - Switches
-        - Uppercase
-        - Lowercase
-        - Numbers
-        - Symbols
-- Footer
+|- Generated Password Menu  
+|- Buttons Menu  
+|--- Generate Password Button  
+|--- Copy to Clipboard Button  
+|- CommandsMenu  
+|--- LengthInput  
+|--- Switches  
+|- Footer  
+
