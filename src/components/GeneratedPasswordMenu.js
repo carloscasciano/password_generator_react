@@ -4,15 +4,14 @@ import Grid from '@material-ui/core/Grid'
 import { makeStyles } from '@material-ui/core/styles'
 import { getColor } from '../code_logic/getColor'
 
+const textFieldStyle = {width: "30em"}
+
 const GeneratedPasswordMenu = (props) => {
 
     const currentColor = getColor(props.passwordStrength)
     const useStyles = makeStyles({
-        root: {
-            color: currentColor
-          },
         inputColor: {
-          color: currentColor
+            color: currentColor
         }
       })
     const classes = useStyles()
@@ -26,6 +25,7 @@ const GeneratedPasswordMenu = (props) => {
                 alignItems="center"
             >
                 <Textfield 
+                    style = {textFieldStyle}
                     variant = "outlined"
                     value = {props.generatedPassword} 
                     helperText = {props.passwordStrength}
