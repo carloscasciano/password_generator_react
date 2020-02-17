@@ -3,6 +3,7 @@
  import LinkedInIcon from '@material-ui/icons/LinkedIn'
  import Grid from '@material-ui/core/Grid'
  import Link from '@material-ui/core/Link'
+ import Typography from '@material-ui/core/Typography'
 
  const footerStyle = {
     flexShrink: "0",
@@ -26,7 +27,7 @@
                 alignItems="center"
                 style={footerStyle}
             >
-                <p>coded by carlos casciano</p>
+                <Typography variant="body1">coded by carlos casciano</Typography>
                 <Link href="https://github.com/carloscasciano/" style={iconStyle}>
                     <GitHubIcon />
                 </Link>
