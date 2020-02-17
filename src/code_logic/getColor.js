@@ -4,7 +4,7 @@ export const getColor = (passwordStrength) => {
         case 'weak' : return '#FF720F' 
         case 'medium' : return '#E8A72C'
         case 'strong' : return '#5BA324'
-        case 'very strong' : return '#144A0A'
+        case 'very strong' : return '#266E28'
         default : return 'gray'
     }
 }

@@ -18,8 +18,7 @@
 
  const FooterInfo = () => {
      return (
-         <>
-            
+         <>     
             <Grid
                 container
                 direction="row"
