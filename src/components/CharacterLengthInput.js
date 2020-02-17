@@ -12,6 +12,7 @@ const CharacterLengthInput = (props) => {
                 label="length"
                 variant="filled"
                 size="small"
+                type="number"
             />
         </>
     )
