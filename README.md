@@ -28,7 +28,7 @@ This project was motivated on showing the full process of creating a single page
 - Pencil Mockup
 - Figma Mockup
 - Draw Components Structure
-- Create repository
+- Create git repository
 - Create react app and delete unused files
 - Code basic components
 - Code password generation logic
@@ -53,9 +53,9 @@ This project was motivated on showing the full process of creating a single page
 
 
 #### Components Structure
-|- Title
-|- Password 
-|----- Generated Password
+- |- Title
+- |- Password 
+- |----- Generated Password
 - ButttonsMenu
     - Generate Button
     - Copy to Clipboard Button
