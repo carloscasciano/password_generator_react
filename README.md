@@ -47,14 +47,14 @@ This project was motivated on showing the full process of creating a single page
 - Manual testing
 - Code cleaning
 - Deploy
-- Test deplyed
+- Test deployed
 - Update readme
 - Write next steps
 - Publish
 
 #### Mockups
 
-![alt text](https://imgur.com/XWqNURU "Drawing Mockup")
+![alt text]([Imgur](https://i.imgur.com/XWqNURU.jpg) "Drawing Mockup")
 
 #### Components Structure
 |- Title  
@@ -67,3 +67,7 @@ This project was motivated on showing the full process of creating a single page
 |--- Switches  
 |- Footer  
 
+
+
+#### Next steps:
+-  Add better animation to show that password is copied
