@@ -21,31 +21,31 @@ This project was motivated on showing the full process of creating a single page
 
 ### Tasks
 
-[X] Write user cases  
-[X] Pencil Mockup  
-[X] Figma Mockup  
-[X] Create git repository
-[X] Create react app and delete unused files
-[X] Code basic components
-[X] Code password generation logic
-[X] Code password strength logic
-[X] Code length capture
-[X] Code switches logic
-[X] Connect switches with generation and strength
-[X] Code copy to clipboard feature
-[X] Handle empty switches
-[X] Handle text on length textfield
-[X] Code colors based on strength
-[X] Code maximum permitted chars
-[X] Set margins and paddings
-[X] Set favicon
-[X] Manual testing
-[X] Code cleaning
-[X] Deploy
-[X] Test deployed
-[X] Update readme
-[X] Write next steps
-[X] Publish
+- [X] Write user cases  
+- [X] Pencil Mockup  
+- [X] Figma Mockup  
+- [X] Create git repository
+- [X] Create react app and delete unused files
+- [X] Code basic components
+- [X] Code password generation logic
+- [X] Code password strength logic
+- [X] Code length capture
+- [X] Code switches logic
+- [X] Connect switches with generation and strength
+- [X] Code copy to clipboard feature
+- [X] Handle empty switches
+- [X] Handle text on length textfield
+- [X] Code colors based on strength
+- [X] Code maximum permitted chars
+- [X] Set margins and paddings
+- [X] Set favicon
+- [X] Manual testing
+- [X] Code cleaning
+- [X] Deploy
+- [X] Test deployed
+- [X] Update readme
+- [X] Write next steps
+- [X] Publish
 
 ## Details
 
